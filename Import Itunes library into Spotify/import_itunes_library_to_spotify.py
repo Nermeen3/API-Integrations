@@ -96,7 +96,7 @@ def create_spotify_playlists(xml_file):
     return created_playlists
 
 # Path to your iTunes Library XML file
-itunes_xml_path = r"D:\\Users\\PC\\PycharmProjects\\Import Itunes to Spotify\\itunes_library.xml"
+itunes_xml_path = r"itunes_library.xml"
 
 print(f"Using iTunes XML file at: {itunes_xml_path}")
 
