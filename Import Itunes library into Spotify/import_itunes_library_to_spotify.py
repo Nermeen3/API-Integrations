@@ -14,7 +14,6 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
     scope='playlist-modify-public'
 ))
 
-
 # Function to extract playlists and tracks from iTunes XML
 def parse_itunes_xml(xml_file):
     if not os.path.exists(xml_file):
@@ -60,40 +59,55 @@ def parse_itunes_xml(xml_file):
 
     return playlists, tracks
 
-# Function to create playlists on Spotify
 def create_spotify_playlists(xml_file):
     playlists, tracks = parse_itunes_xml(xml_file)
+    print(f"Found {len(playlists)} playlists and {len(tracks)} tracks in the library.")
     created_playlists = {}
+    unfound_tracks = {}
 
     for playlist_name, track_ids in playlists.items():
-        if playlist_name in ("Library", "Songs", "Music", "Downloaded", "TV Shows", "Movies", "Audiobooks", "Podcasts"):
-            continue
+
+        # if playlist_name in ("Library", "Songs", "Music", "Downloaded", "TV Shows", "Movies", "Audiobooks", "Podcasts", "2000s Hits Essentials", "90’s Club Songs"):
+        #     continue
         try:
+            print(f"\nCreating playlist: {playlist_name} with IDs {track_ids}")
             playlist = sp.user_playlist_create(user=sp.me()['id'], name=playlist_name)
             created_playlists[playlist_name] = playlist['id']
 
             track_uris = []
+            unfound_tracks[playlist_name] = []
             for track_id in track_ids:
                 if track_id in tracks:
                     track_name, artist_name = tracks[track_id]
                     try:
-                        results = sp.search(q=f"track:{track_name}", limit=1, type='track')
+                        print(f"Searching for track: {track_name} by {artist_name}")
+                        results = sp.search(q=f"track:{track_name} artist:{artist_name}", type='track', limit=1)
                         if results['tracks']['items']:
-                            track_uris.append(results["tracks"]["items"][0]["uri"])
+                            track_uri = results['tracks']['items'][0]['uri']
+                            track_uris.append(track_uri)
+                            print(f"Found track: {track_name} (URI: {track_uri})")
                         else:
                             print(f"Could not find track: {track_name} by {artist_name}")
+                            unfound_tracks[playlist_name].append(f"{track_name} by {artist_name}")
                     except Exception as e:
                         print(f"Error searching for track {track_name}: {str(e)}")
+                        unfound_tracks[playlist_name].append(f"{track_name} by {artist_name}")
 
             if track_uris:
-                sp.playlist_add_items(playlist['id'], track_uris)
+                print(f"Adding {len(track_uris)} tracks to playlist {playlist_name}")
+                for i in range(0, len(track_uris), 100):  # Spotify allows max 100 tracks per request
+                    batch = track_uris[i:i+100]
+                    try:
+                        sp.playlist_add_items(playlist['id'], batch)
+                        print(f"Added batch of {len(batch)} tracks to playlist")
+                    except Exception as e:
+                        print(f"Error adding tracks to playlist: {str(e)}")
             else:
                 print(f"No tracks found for playlist: {playlist_name}")
         except Exception as e:
             print(f"Error creating playlist {playlist_name}: {str(e)}")
-        break
 
-    return created_playlists
+    return created_playlists, unfound_tracks
 
 # Path to your iTunes Library XML file
 itunes_xml_path = r"itunes_library.xml"
@@ -101,6 +115,18 @@ itunes_xml_path = r"itunes_library.xml"
 print(f"Using iTunes XML file at: {itunes_xml_path}")
 
 # Create playlists on Spotify
-created_playlists = create_spotify_playlists(itunes_xml_path)
+created_playlists, unfound_tracks = create_spotify_playlists(itunes_xml_path)
 
-print("Playlists and tracks have been successfully imported to Spotify.")
+print("Playlists have been successfully imported to Spotify.")
+
+# Print unfound tracks for each playlist
+print("\nUnfound tracks per playlist:")
+for playlist, tracks in unfound_tracks.items():
+    if tracks:
+        print(f"\n{playlist}:")
+        for track in tracks:
+            print(f"  - {track}")
+    else:
+        print(f"\n{playlist}: All tracks found")
+
+print("\nImport process completed.")

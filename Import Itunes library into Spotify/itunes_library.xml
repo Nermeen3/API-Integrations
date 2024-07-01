@@ -23735,13 +23735,6 @@
 			</array>
 		</dict>
 		<dict>
-			<key>Name</key><string>90’s Club Songs</string>
-			<key>Description</key><string>Old hype music</string>
-			<key>Playlist ID</key><integer>4798</integer>
-			<key>Playlist Persistent ID</key><string>1F7C0B4DE668425F</string>
-			<key>All Items</key><true/>
-		</dict>
-		<dict>
 			<key>Name</key><string>90’s Romance</string>
 			<key>Description</key><string>Love songs</string>
 			<key>Playlist ID</key><integer>3543</integer>
@@ -24040,13 +24033,6 @@
 			</array>
 		</dict>
 		<dict>
-			<key>Name</key><string>90’s Romance</string>
-			<key>Description</key><string>Love songs</string>
-			<key>Playlist ID</key><integer>4801</integer>
-			<key>Playlist Persistent ID</key><string>A5F336B4BBA4AB7C</string>
-			<key>All Items</key><true/>
-		</dict>
-		<dict>
 			<key>Name</key><string>Arabic Songs</string>
 			<key>Description</key><string>Arabic</string>
 			<key>Playlist ID</key><integer>3642</integer>
@@ -24186,13 +24172,6 @@
 			</array>
 		</dict>
 		<dict>
-			<key>Name</key><string>Arabic Songs</string>
-			<key>Description</key><string>Arabic</string>
-			<key>Playlist ID</key><integer>4732</integer>
-			<key>Playlist Persistent ID</key><string>D8BE27EA0BBC0BAE</string>
-			<key>All Items</key><true/>
-		</dict>
-		<dict>
 			<key>Name</key><string>Au/Ra - Moon River - Single</string>
 			<key>Description</key><string>Carry away</string>
 			<key>Playlist ID</key><integer>3688</integer>
@@ -24317,13 +24296,6 @@
 			</array>
 		</dict>
 		<dict>
-			<key>Name</key><string>Au/Ra - Moon River - Single</string>
-			<key>Description</key><string>Carry away</string>
-			<key>Playlist ID</key><integer>4735</integer>
-			<key>Playlist Persistent ID</key><string>80FCFF2962974351</string>
-			<key>All Items</key><true/>
-		</dict>
-		<dict>
 			<key>Name</key><string>Chill Dance</string>
 			<key>Description</key><string>Summer vibe</string>
 			<key>Playlist ID</key><integer>3729</integer>
@@ -24427,13 +24399,6 @@
 			</array>
 		</dict>
 		<dict>
-			<key>Name</key><string>Chill Dance</string>
-			<key>Description</key><string>Summer vibe</string>
-			<key>Playlist ID</key><integer>4738</integer>
-			<key>Playlist Persistent ID</key><string>0A38C0E5B7357DFA</string>
-			<key>All Items</key><true/>
-		</dict>
-		<dict>
 			<key>Name</key><string>Engagement</string>
 			<key>Description</key><string></string>
 			<key>Playlist ID</key><integer>3763</integer>
@@ -24484,13 +24449,6 @@
 					<key>Track ID</key><integer>2264</integer>
 				</dict>
 			</array>
-		</dict>
-		<dict>
-			<key>Name</key><string>Engagement</string>
-			<key>Description</key><string></string>
-			<key>Playlist ID</key><integer>4741</integer>
-			<key>Playlist Persistent ID</key><string>CE8A5925A494D5AB</string>
-			<key>All Items</key><true/>
 		</dict>
 		<dict>
 			<key>Name</key><string>Foreign Songs</string>
@@ -24572,13 +24530,6 @@
 			</array>
 		</dict>
 		<dict>
-			<key>Name</key><string>Foreign Songs</string>
-			<key>Description</key><string>French and foreign</string>
-			<key>Playlist ID</key><integer>4744</integer>
-			<key>Playlist Persistent ID</key><string>12B18ECAC006AB28</string>
-			<key>All Items</key><true/>
-		</dict>
-		<dict>
 			<key>Name</key><string>Georgian </string>
 			<key>Description</key><string></string>
 			<key>Playlist ID</key><integer>3806</integer>
@@ -24590,13 +24541,6 @@
 					<key>Track ID</key><integer>2142</integer>
 				</dict>
 			</array>
-		</dict>
-		<dict>
-			<key>Name</key><string>Georgian </string>
-			<key>Description</key><string></string>
-			<key>Playlist ID</key><integer>4747</integer>
-			<key>Playlist Persistent ID</key><string>2BDB637A3DC4E03E</string>
-			<key>All Items</key><true/>
 		</dict>
 		<dict>
 			<key>Name</key><string>Instrumental Music</string>
@@ -24666,13 +24610,6 @@
 			</array>
 		</dict>
 		<dict>
-			<key>Name</key><string>Instrumental Music</string>
-			<key>Description</key><string>Emotional music</string>
-			<key>Playlist ID</key><integer>4750</integer>
-			<key>Playlist Persistent ID</key><string>2AD72F39C19DF8E4</string>
-			<key>All Items</key><true/>
-		</dict>
-		<dict>
 			<key>Name</key><string>Jumpy Foreign</string>
 			<key>Description</key><string></string>
 			<key>Playlist ID</key><integer>3832</integer>
@@ -24687,13 +24624,6 @@
 					<key>Track ID</key><integer>1976</integer>
 				</dict>
 			</array>
-		</dict>
-		<dict>
-			<key>Name</key><string>Jumpy Foreign</string>
-			<key>Description</key><string></string>
-			<key>Playlist ID</key><integer>4753</integer>
-			<key>Playlist Persistent ID</key><string>F46E625B7DFC403F</string>
-			<key>All Items</key><true/>
 		</dict>
 		<dict>
 			<key>Name</key><string>Korean Songs</string>
@@ -24716,13 +24646,6 @@
 					<key>Track ID</key><integer>2178</integer>
 				</dict>
 			</array>
-		</dict>
-		<dict>
-			<key>Name</key><string>Korean Songs</string>
-			<key>Description</key><string></string>
-			<key>Playlist ID</key><integer>4756</integer>
-			<key>Playlist Persistent ID</key><string>56BE333EFF4E2957</string>
-			<key>All Items</key><true/>
 		</dict>
 		<dict>
 			<key>Name</key><string>Krewella</string>
@@ -24802,13 +24725,6 @@
 					<key>Track ID</key><integer>2262</integer>
 				</dict>
 			</array>
-		</dict>
-		<dict>
-			<key>Name</key><string>Krewella</string>
-			<key>Description</key><string>Alan walker vibes</string>
-			<key>Playlist ID</key><integer>4759</integer>
-			<key>Playlist Persistent ID</key><string>BBA2617D6394F147</string>
-			<key>All Items</key><true/>
 		</dict>
 		<dict>
 			<key>Name</key><string>Lana Del Rey - The Great Gatsby (Music From Baz Luhrmann's Film)</string>
@@ -25037,13 +24953,6 @@
 			</array>
 		</dict>
 		<dict>
-			<key>Name</key><string>Lana Del Rey - The Great Gatsby (Music From Baz Luhrmann's Film)</string>
-			<key>Description</key><string>Calm &#38; Sad Vibez</string>
-			<key>Playlist ID</key><integer>4762</integer>
-			<key>Playlist Persistent ID</key><string>7E1A004ECE643A98</string>
-			<key>All Items</key><true/>
-		</dict>
-		<dict>
 			<key>Name</key><string>League Of Legends</string>
 			<key>Description</key><string>League of legends</string>
 			<key>Playlist ID</key><integer>3945</integer>
@@ -25124,13 +25033,6 @@
 					<key>Track ID</key><integer>2244</integer>
 				</dict>
 			</array>
-		</dict>
-		<dict>
-			<key>Name</key><string>League Of Legends</string>
-			<key>Description</key><string>League of legends</string>
-			<key>Playlist ID</key><integer>4765</integer>
-			<key>Playlist Persistent ID</key><string>5F34D622A6A0CBEA</string>
-			<key>All Items</key><true/>
 		</dict>
 		<dict>
 			<key>Name</key><string>Lofi</string>
@@ -25267,13 +25169,6 @@
 			</array>
 		</dict>
 		<dict>
-			<key>Name</key><string>Michael Bublé - love (Deluxe Edition)</string>
-			<key>Description</key><string>Love pop songs</string>
-			<key>Playlist ID</key><integer>4768</integer>
-			<key>Playlist Persistent ID</key><string>D33510E445E72C03</string>
-			<key>All Items</key><true/>
-		</dict>
-		<dict>
 			<key>Name</key><string>Mosimann - Never Let You Go (feat. Joe Cleere) - Single</string>
 			<key>Description</key><string>Sad Emotional Vibes</string>
 			<key>Playlist ID</key><integer>4016</integer>
@@ -25297,13 +25192,6 @@
 					<key>Track ID</key><integer>1860</integer>
 				</dict>
 			</array>
-		</dict>
-		<dict>
-			<key>Name</key><string>Mosimann - Never Let You Go (feat. Joe Cleere) - Single</string>
-			<key>Description</key><string>Sad Emotional Vibes</string>
-			<key>Playlist ID</key><integer>4771</integer>
-			<key>Playlist Persistent ID</key><string>E872D86B2D7CD4E0</string>
-			<key>All Items</key><true/>
 		</dict>
 		<dict>
 			<key>Name</key><string>Party Pop</string>
@@ -25374,13 +25262,6 @@
 					<key>Track ID</key><integer>2242</integer>
 				</dict>
 			</array>
-		</dict>
-		<dict>
-			<key>Name</key><string>Party Pop</string>
-			<key>Description</key><string>Karaoke</string>
-			<key>Playlist ID</key><integer>4774</integer>
-			<key>Playlist Persistent ID</key><string>07A3E6CAAC44BAD7</string>
-			<key>All Items</key><true/>
 		</dict>
 		<dict>
 			<key>Name</key><string>Post Malone - Hollywood's Bleeding</string>
@@ -25480,13 +25361,6 @@
 			</array>
 		</dict>
 		<dict>
-			<key>Name</key><string>Post Malone - Hollywood's Bleeding</string>
-			<key>Description</key><string>Post malone vibes</string>
-			<key>Playlist ID</key><integer>4777</integer>
-			<key>Playlist Persistent ID</key><string>AAEDF13EE523FB7E</string>
-			<key>All Items</key><true/>
-		</dict>
-		<dict>
 			<key>Name</key><string>Rap</string>
 			<key>Description</key><string></string>
 			<key>Playlist ID</key><integer>4079</integer>
@@ -25501,13 +25375,6 @@
 					<key>Track ID</key><integer>2174</integer>
 				</dict>
 			</array>
-		</dict>
-		<dict>
-			<key>Name</key><string>Rap</string>
-			<key>Description</key><string></string>
-			<key>Playlist ID</key><integer>4780</integer>
-			<key>Playlist Persistent ID</key><string>297509B661EA89E7</string>
-			<key>All Items</key><true/>
 		</dict>
 		<dict>
 			<key>Name</key><string>Shawn Mendes - Wonder</string>
@@ -25554,13 +25421,6 @@
 					<key>Track ID</key><integer>1450</integer>
 				</dict>
 			</array>
-		</dict>
-		<dict>
-			<key>Name</key><string>Shawn Mendes - Wonder</string>
-			<key>Description</key><string>Slow Dance VibeZ</string>
-			<key>Playlist ID</key><integer>4783</integer>
-			<key>Playlist Persistent ID</key><string>8225DEA671615E56</string>
-			<key>All Items</key><true/>
 		</dict>
 		<dict>
 			<key>Name</key><string>Single - Ari</string>
@@ -25669,13 +25529,6 @@
 			</array>
 		</dict>
 		<dict>
-			<key>Name</key><string>Single - Ari</string>
-			<key>Description</key><string>Chill VibeZ</string>
-			<key>Playlist ID</key><integer>4786</integer>
-			<key>Playlist Persistent ID</key><string>7A3930B63A08DF22</string>
-			<key>All Items</key><true/>
-		</dict>
-		<dict>
 			<key>Name</key><string>Single Power - Ava Max</string>
 			<key>Description</key><string>Hype &#38; Dance</string>
 			<key>Playlist ID</key><integer>4134</integer>
@@ -25726,13 +25579,6 @@
 					<key>Track ID</key><integer>1250</integer>
 				</dict>
 			</array>
-		</dict>
-		<dict>
-			<key>Name</key><string>Single Power - Ava Max</string>
-			<key>Description</key><string>Hype &#38; Dance</string>
-			<key>Playlist ID</key><integer>4789</integer>
-			<key>Playlist Persistent ID</key><string>6123535A64BEA783</string>
-			<key>All Items</key><true/>
 		</dict>
 		<dict>
 			<key>Name</key><string>Slowed and reverb - carry away</string>
@@ -25793,24 +25639,10 @@
 			</array>
 		</dict>
 		<dict>
-			<key>Name</key><string>Slowed and reverb - carry away</string>
-			<key>Description</key><string></string>
-			<key>Playlist ID</key><integer>4792</integer>
-			<key>Playlist Persistent ID</key><string>ED09C439BBF3CC0C</string>
-			<key>All Items</key><true/>
-		</dict>
-		<dict>
 			<key>Name</key><string>Toni Braxton - Secrets</string>
 			<key>Description</key><string>Sad</string>
 			<key>Playlist ID</key><integer>4170</integer>
 			<key>Playlist Persistent ID</key><string>05D26D4905CE2F04</string>
-			<key>All Items</key><true/>
-		</dict>
-		<dict>
-			<key>Name</key><string>Toni Braxton - Secrets</string>
-			<key>Description</key><string>Sad</string>
-			<key>Playlist ID</key><integer>4795</integer>
-			<key>Playlist Persistent ID</key><string>8093611B2EAE86CD</string>
 			<key>All Items</key><true/>
 		</dict>
 	</array>
